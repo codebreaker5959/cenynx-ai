@@ -33,7 +33,7 @@ jobs:
 
     - name: Build APK
       run: |
-        flet build apk ana.py
+        flet build apk ana.py--no interactive
 
     - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
